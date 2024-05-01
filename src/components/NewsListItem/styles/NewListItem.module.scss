@@ -1,0 +1,31 @@
+.newsListItem {
+    background: #161616;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    &__subtitle {
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        color: #8d8989;
+        margin-top: 10px;
+    }
+
+    &:active {
+        scale: 0.9;
+    }
+}
+
+@media(hover: hover) {
+    .newsListItem:hover {
+        background: #0077ff7c;
+    }
+}

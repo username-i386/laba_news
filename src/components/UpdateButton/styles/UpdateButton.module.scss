@@ -1,0 +1,20 @@
+.updateBtn {
+    width: 100px;
+    margin-right: 5px;
+    font-size: 20px;
+    transition: background-color .3s;
+
+    &:active {
+        opacity: 0.8;
+    }
+}
+
+@media(hover: hover) {
+    .updateBtn:hover {
+        background: #0656b3;
+
+        & * {
+            color: #fff;
+        }
+    }
+}
