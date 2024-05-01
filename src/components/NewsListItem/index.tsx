@@ -1,0 +1,1 @@
+export { NewsListItem } from './component/NewsListItem';

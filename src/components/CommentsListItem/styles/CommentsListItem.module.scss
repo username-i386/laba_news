@@ -1,0 +1,28 @@
+.comment {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    transition: background-color .3s;
+
+    &_deleted {
+        opacity: 0.5;
+        user-select: none;
+        cursor: not-allowed;
+    }
+
+    &__text {
+        color: #dfcbcb;
+    }
+
+    &_hasChild {
+        cursor: pointer;
+    }
+}
+
+@media(hover: hover) {
+    .comment_hasChild:hover {
+        background: rgba(0, 119, 255, 0.5);;
+    }
+}
