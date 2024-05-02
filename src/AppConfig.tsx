@@ -26,7 +26,7 @@ export const AppConfig = () => {
     >
       <AdaptivityProvider {...adaptivity}>
         <AppRoot mode="full" safeAreaInsets={vkBridgeInsets}>
-          <RouterProvider router={router}>
+          <RouterProvider router={router} notFoundRedirectPath='/'>
             <Provider store={store}>
               <App />
             </Provider>

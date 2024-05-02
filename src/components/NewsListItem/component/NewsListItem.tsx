@@ -22,7 +22,7 @@ export const NewsListItem: FC<INewsListItemProps> = ({ newsId, index, panel }): 
 
     function openNews(newsId: number, news: IGetNewsItemResponse ) {
         if (panel === 'home') {
-            routeNavigator.push(`/currentNews/${newsId}`);
+            routeNavigator.push(`/currentNews/${newsId}/`);
         } else if (panel === 'currentNews') {
             window.open(news.url);
         }
