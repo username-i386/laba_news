@@ -30,6 +30,7 @@ yarn start
 ![React](https://img.shields.io/badge/react-104581?style=for-the-badge&logo=react)
 ![Redux](https://img.shields.io/badge/redux-104581?style=for-the-badge&logo=redux&logoColor=#764ABC)
 ![VK](https://img.shields.io/badge/VK_Mini_App-104581?style=for-the-badge&logo=vk&logoColor=#0077FF)
+![CSS Module](https://img.shields.io/badge/CSS_Modules-104581?style=for-the-badge&logo=cssmodules&logoColor=#ffffff)
 
 ## Source
 [Hacker News API](https://github.com/HackerNews/API)
